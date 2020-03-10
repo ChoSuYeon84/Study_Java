@@ -7,7 +7,7 @@ public class Study_Java30 {
 				if(i * j < 10) {
 					System.out.print(i+"X"+j+"=0"+(i*j)+"\t");
 				}else {
-				System.out.print(i+"X"+j+"="+(i*j)+"\t");
+					System.out.print(i+"X"+j+"="+(i*j)+"\t");
 				}//if
 			}//for j
 			System.out.println();
@@ -23,9 +23,9 @@ public class Study_Java30 {
 				if(i * j < 10) {
 					System.out.print(i+"X"+j+"=0"+(i*j)+"\t");
 				}else {
-				System.out.print(i+"X"+j+"="+(i*j)+"\t");
+					System.out.print(i+"X"+j+"="+(i*j)+"\t");
 				}//if
-			j++;
+				j++;
 			}//while
 			i++;
 			System.out.println();
@@ -41,10 +41,10 @@ public class Study_Java30 {
 				if(i * j < 10) {
 					System.out.print(i+"X"+j+"=0"+(i*j)+"\t");
 				}else {
-				System.out.print(i+"X"+j+"="+(i*j)+"\t");
+					System.out.print(i+"X"+j+"="+(i*j)+"\t");
 				}//if
 				j++;
-				}while(j <= 9);
+			}while(j <= 9);
 			i++;
 			System.out.println();
 		    }while(i <= 9);
