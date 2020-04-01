@@ -1,6 +1,8 @@
 package com.hanul.study;
 
-public class MemberDTO {
+import java.io.Serializable;
+
+public class MemberDTO implements Serializable{
 	//멤버변수
 		private int num;
 		private String name;
