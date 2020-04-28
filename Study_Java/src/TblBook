@@ -1,0 +1,22 @@
+--tblBook 테이블 생성
+create table tblBook(
+    num number primary key not null,
+    title varchar2(30),
+    company varchar2(20),
+    name varchar2(10),
+    cost number
+);
+
+--임의 레코드 삽입
+insert into tblBook values(1, 'JAVA', '한빛', '김윤명', 27000);
+insert into tblBook values(2, 'SAP', '혜지원', '오정원', 30000);
+
+-- 전체 레코드 검색
+SELECT
+*
+FROM tblbook;
+
+--커밋
+commit;
+
+update tblbook set title ='JSP' where num = 2;
